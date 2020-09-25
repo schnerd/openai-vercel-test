@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 module.exports = (req, res) => {
   var body = JSON.stringify({"prompt": "hello world", "max_tokens": 9 });
 
