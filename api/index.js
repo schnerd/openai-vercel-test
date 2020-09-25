@@ -7,7 +7,7 @@ module.exports = (req, res) => {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json',
-    'Authorization': `Bearer ${process.env.THE_KEY}`
+    'Authorization': `Bearer ${process.env.API_KEY}`
     },
     body: body,
     redirect: 'follow'
